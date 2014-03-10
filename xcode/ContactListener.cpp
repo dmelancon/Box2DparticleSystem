@@ -6,7 +6,7 @@
 //
 //
 #include <Box2D/Box2D.h>
-#include "Box.h"
+#include "box.h"
 #include "ContactListener.h"
 
     void ContactListener::BeginContact(b2Contact* contact) {

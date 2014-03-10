@@ -38,5 +38,6 @@ dependencies: /Users/dan/Documents/CinderProjects/Box2d/src/Box2dApp.cpp \
   ../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.h \
   ../../../cinder/include/cinder/Rand.h \
   /Users/dan/Documents/CinderProjects/Box2d/xcode/box.h \
+  /Users/dan/Documents/CinderProjects/Box2d/xcode/particleSystem.h \
   /Users/dan/Documents/CinderProjects/Box2d/xcode/ground.h \
   /Users/dan/Documents/CinderProjects/Box2d/xcode/ContactListener.h

@@ -36,4 +36,5 @@ dependencies: /Users/dan/Documents/CinderProjects/Box2d/xcode/box.cpp \
   ../blocks/Box2D/src/Box2D/Dynamics/Joints/b2RopeJoint.h \
   ../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.h \
   /Users/dan/Documents/CinderProjects/Box2d/xcode/box.h \
+  /Users/dan/Documents/CinderProjects/Box2d/xcode/particleSystem.h \
   ../../../cinder/include/cinder/Rand.h
