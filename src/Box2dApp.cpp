@@ -30,7 +30,7 @@ class Box2dApp : public AppNative {
 
 void Box2dApp::setup()
 {
-    b2Vec2 gravity( 0.0f,0.3f );
+    b2Vec2 gravity( 0.0f,0.1f );
 	mWorld = new b2World( gravity );
     mWorld->SetContactListener(&myContactListenerInstance);
     mGround = ground(mWorld);
@@ -76,7 +76,7 @@ void Box2dApp::draw()
 {
 	// clear out the window with black
 	gl::clear( Color( 1, 1, 1 ) );
-    gl::setMatricesWindow(getWindowWidth(),getWindowHeight());
+ //   gl::setMatricesWindow(getWindowWidth(),getWindowHeight());
     for( list<box1*>::iterator boxIt = mBoxes.begin(); boxIt != mBoxes.end(); ++boxIt ) {
         (*boxIt)->drawBox();
 	}

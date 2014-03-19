@@ -8,6 +8,9 @@
 
 #pragma once
 #include "particleSystem.h"
+#include "cinder/TriMesh.h"
+#include "cinder/gl/Vbo.h"
+#include "cinder/gl/GlslProg.h"
 
 using namespace ci;
 
@@ -20,11 +23,13 @@ public:
     void endContact();
     void addBox();
     void update();
+    void createMesh();
     void drawBox();
     bool isDead();
     int mNumContacts;
-    
+    gl::VboMesh mesh;
 
+    //gl::VboMesh::Layout layout;
     Vec2f  getPosition();
     float & getAngle();
 
@@ -34,7 +39,6 @@ private:
     b2BodyDef bodyDef;
     b2PolygonShape dynamicBox;
     b2FixtureDef fixtureDef;
-
     float t;
     ci::Vec2f mPosition;
     int mLife;

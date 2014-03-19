@@ -39,5 +39,8 @@ dependencies: /Users/dan/Documents/CinderProjects/Box2d/src/Box2dApp.cpp \
   ../../../cinder/include/cinder/Rand.h \
   /Users/dan/Documents/CinderProjects/Box2d/xcode/box.h \
   /Users/dan/Documents/CinderProjects/Box2d/xcode/particleSystem.h \
+  ../../../cinder/include/cinder/gl/GlslProg.h \
+  ../../../cinder/include/cinder/gl/Vbo.h \
+  ../../../cinder/include/cinder/TriMesh.h \
   /Users/dan/Documents/CinderProjects/Box2d/xcode/ground.h \
   /Users/dan/Documents/CinderProjects/Box2d/xcode/ContactListener.h

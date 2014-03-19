@@ -7,6 +7,8 @@
 //
 
 #pragma once
+#include "cinder/gl/GlslProg.h"
+#include "cinder/gl/Vbo.h"
 
 struct Particle {
     ci::Vec2f mPosition;
@@ -29,7 +31,10 @@ public:
     int mSize;
     int mPos;
     float angle;
+    ci::gl::VboMeshRef myMesh;
+
 private:
     std::list<Particle> mParticles;
+
     float x;
 };
